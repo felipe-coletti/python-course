@@ -1,6 +1,6 @@
-valor1 = int(input('Digite o primeiro valor: '))
-valor2 = int(input('Digite o segundo valor: '))
+v1 = int(input('Digite o primeiro valor: '))
+v2 = int(input('Digite o segundo valor: '))
 
-soma = valor1 + valor2
+s = v1 + v2
 
-print('A soma entre {} e {} é igual a {}.'.format(valor1, valor2, soma))
+print('A soma entre {} e {} é igual a {}.'.format(v1, v2, s))
