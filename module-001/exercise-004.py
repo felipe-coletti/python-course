@@ -1,0 +1,10 @@
+algo = input('Digite algo: ')
+
+print('O tipo primitivo é: {}'.format(type(algo)))
+print('É composto apenas por espaços? {}'.format(algo.isspace()))
+print('É composto apenas por números? {}'.format(algo.isnumeric()))
+print('É composto apenas por letras? {}'.format(algo.isalpha()))
+print('É composto apenas por números e letras? {}'.format(algo.isalnum()))
+print('É composto apenas por letras maiúsculas? {}'.format(algo.isupper()))
+print('É composto apenas por letras minúsculas? {}'.format(algo.islower()))
+print('Está capitalizado? {}'.format(algo.istitle()))
