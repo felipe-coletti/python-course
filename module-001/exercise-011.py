@@ -5,5 +5,5 @@ a = b * h
 
 l = a / 2
 
-print('A área da parede é de {} m².'.format(a))
+print('A área de uma parede com as dimensões {}x{} é de {} m².'.format(b, h, a))
 print('Para pinta-la, será necessário {} L de tinta.'.format(l))
