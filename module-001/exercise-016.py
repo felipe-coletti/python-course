@@ -6,4 +6,4 @@ from math import *
 
 n = float(input('Digite um número: '))
 
-print('A parte inteira de {} é {}.'.format(n, trunc(n)))
+print('A parte inteira de {:.2f} é {}.'.format(n, trunc(n)))
