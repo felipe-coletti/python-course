@@ -7,4 +7,4 @@ d = int(input('Digite por quantos dias o carro foi alugado: '))
 
 p = 0,15 * km + 60 * d
 
-print('O preço total a pagar é de R$ {:.2f}'.format(p))
+print('O preço total a pagar é de R$ {:.2f}.'.format(p))
