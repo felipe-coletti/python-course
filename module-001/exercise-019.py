@@ -1,5 +1,5 @@
 '''
-
+Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele lendo os nomes deles e escrevendo o nome do escolhido.
 '''
 
 from random import *
@@ -9,4 +9,6 @@ a2 = input('Digite o nome do segunundo aluno: ')
 a3 = input('Digite o nome do terceiro aluno: ')
 a4 = input('Digite o nome do quarto aluno: ')
 
-print('O aluno sorteado foi {}.'.format(choice(a1, a2, a3, a4)))
+l = [a1, a2, a3, a4]
+
+print('O aluno sorteado foi {}.'.format(choice(l)))
