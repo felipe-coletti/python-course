@@ -2,7 +2,7 @@
 Crie um programa que leia um número real qualquer pelo teclado e mostra na tela a sua porção inteira.
 '''
 
-from math import *
+from math import trunc
 
 n = float(input('Digite um número: '))
 
