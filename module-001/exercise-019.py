@@ -2,7 +2,7 @@
 Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele lendo os nomes deles e escrevendo o nome do escolhido.
 '''
 
-from random import *
+from random import choice
 
 a1 = input('Digite o nome do primeiro aluno: ')
 a2 = input('Digite o nome do segundo aluno: ')
