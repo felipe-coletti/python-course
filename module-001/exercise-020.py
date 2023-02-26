@@ -11,4 +11,6 @@ a4 = input('Digite o nome do quarto aluno: ')
 
 l = [a1, a2, a3, a4]
 
-print('A ordem de apresentação dos trabalhos é {}.'.format(shuffle(l)))
+r = shuffle(l)
+
+print('A ordem de apresentação dos trabalhos é {}, {}, {} e {}.'.format(r[0], r[1], r[2], r[3]))
