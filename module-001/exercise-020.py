@@ -5,7 +5,7 @@ O mesmo professor do desafio 019 quer sortear a ordem de apresentação de traba
 from random import *
 
 a1 = input('Digite o nome do primeiro aluno: ')
-a2 = input('Digite o nome do segunundo aluno: ')
+a2 = input('Digite o nome do segundo aluno: ')
 a3 = input('Digite o nome do terceiro aluno: ')
 a4 = input('Digite o nome do quarto aluno: ')
 
