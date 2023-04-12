@@ -5,6 +5,6 @@ Escreva um programa que pergunta a quantidade de Km percorridos por um carro alu
 km = float(input('Digite quantos quilômetros foram percorridos com o carro: '))
 d = int(input('Digite por quantos dias o carro foi alugado: '))
 
-p = 0,15 * km + 60 * d
+p = 0.15 * km + 60 * d
 
 print('O preço total a pagar é de R$ {:.2f}.'.format(p))
