@@ -2,7 +2,7 @@
 Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome "SANTO".
 '''
 
-cityName = input('Digite o nome da cidade onde você nasceu: ')
+cityName = input('Digite o nome de uma cidade: ')
 
 cityFirstName = cityName.split()[0]
 
