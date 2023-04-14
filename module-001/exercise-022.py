@@ -2,7 +2,7 @@
 Crie um programa que leia o nome completo de uma pessoa e mostre: o nome com todas as letras maiúsculas e minúsculas, quantas letras ao todo (sem considerar espaços) e quantas letras tem o primeiro nome.
 '''
 
-name = input('Digite o seu nome completo: ').strip()
+name = input('Digite o seu nome completo: ')
 
 firstName = name.split()[0]
 
