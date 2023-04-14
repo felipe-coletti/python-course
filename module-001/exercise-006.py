@@ -2,12 +2,12 @@
 Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
 '''
 
-n = float(input('Digite um número: '))
+number = float(input('Digite um número: '))
 
-d = n * 2
-t = n * 3
-r = n**(1/2)
+double = number * 2
+triple = number * 3
+squareRoot = number**(1/2)
 
-print('O dobro de {} é {}.'.format(n, d))
-print('O triplo de {} é {}.'.format(n, t))
-print('A raiz quadrada de {} é {}.'.format(n, r))
+print('O dobro de {} é {}.'.format(number, double))
+print('O triplo de {} é {}.'.format(number, triple))
+print('A raiz quadrada de {} é {}.'.format(number, squareRoot))
