@@ -2,6 +2,6 @@
 Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
 '''
 
-n = input('Digite o seu nome: ')
+name = input('Digite o seu nome: ')
 
-print('É um prazer te conhecer, {}.'.format(n))
+print('É um prazer te conhecer, {}.'.format(name))
