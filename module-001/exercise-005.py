@@ -2,10 +2,10 @@
 Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.
 '''
 
-n = int(input('Digite um número: '))
+number = int(input('Digite um número: '))
 
-a = n - 1
-s = n + 1
+predecessor = number - 1
+successor = number + 1
 
-print('O antecessor de {} é {}.'.format(n, a))
-print('O sucessor de {} é {}.'.format(n, s))
+print('O antecessor de {} é {}.'.format(number, predecessor))
+print('O sucessor de {} é {}.'.format(number, successor))
