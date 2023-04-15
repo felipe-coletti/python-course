@@ -2,9 +2,9 @@
 Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
 '''
 
-n1 = float(input('Digite a primeira nota: '))
-n2 = float(input('Digite a segunda nota: '))
+firstGrade = float(input('Digite a primeira nota: '))
+secondGrade = float(input('Digite a segunda nota: '))
 
-m = (n1 + n2) / 2
+average = (firstGrade + secondGrade) / 2
 
-print('A média entre {:.2f} e {:.2f} é igual a {:.2f}.'.format(n1, n2, m))
+print('A média entre {:.2f} e {:.2f} é igual a {:.2f}.'.format(firstGrade, secondGrade, average))
