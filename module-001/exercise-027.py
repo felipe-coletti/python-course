@@ -9,5 +9,5 @@ names = name.split()
 firstName = names[0]
 lastName = names[len(names) - 1]
 
-print('Seu primeiro nome é {}.'.format(firstName))
-print('Seu último nome é {}.'.format(lastName))
+print('O primeiro nome é {}.'.format(firstName))
+print('O último nome é {}.'.format(lastName))
