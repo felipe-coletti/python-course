@@ -1,5 +1,5 @@
 '''
-Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome.
+Crie um programa que leia o nome de uma pessoa e diga se ela tem "Silva" no nome.
 '''
 
 name = input('Digite um nome completo: ')
