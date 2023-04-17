@@ -4,11 +4,11 @@ Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça 
 
 from random import choice
 
-a1 = input('Digite o nome do primeiro aluno: ')
-a2 = input('Digite o nome do segundo aluno: ')
-a3 = input('Digite o nome do terceiro aluno: ')
-a4 = input('Digite o nome do quarto aluno: ')
+firstStudent = input('Digite o nome do primeiro aluno: ')
+secondStudent = input('Digite o nome do segundo aluno: ')
+thirdStudent = input('Digite o nome do terceiro aluno: ')
+fourthStudent = input('Digite o nome do quarto aluno: ')
 
-l = [a1, a2, a3, a4]
+students = [firstStudent, secondStudent, thirdStudent, fourthStudent]
 
-print('O aluno sorteado foi {}.'.format(choice(l)))
+print('O aluno sorteado foi {}.'.format(choice(students)))
