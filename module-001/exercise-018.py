@@ -4,12 +4,12 @@ Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno,
 
 from math import radians, sin, cos, tan
 
-a = float(input('Digite o valor de um ângulo: '))
+angle = float(input('Digite o valor de um ângulo: '))
 
-s = sin(radians(a))
-c = cos(radians(a))
-t = tan(radians(a))
+sin = sin(radians(angle))
+cos = cos(radians(angle))
+tan = tan(radians(angle))
 
-print('O seno de {:.2f} é {:.2f}.'.format(a, s))
-print('O cosseno de {:.2f} é {:.2f}.'.format(a, c))
-print('A tangente de {:.2f} é {:.2f}.'.format(a, t))
+print('O seno de {:.2f} é {:.2f}.'.format(angle, sin))
+print('O cosseno de {:.2f} é {:.2f}.'.format(angle, cos))
+print('A tangente de {:.2f} é {:.2f}.'.format(angle, tan))
