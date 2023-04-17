@@ -4,6 +4,6 @@ Crie um programa que leia um número real qualquer pelo teclado e mostra na tela
 
 from math import trunc
 
-n = float(input('Digite um número: '))
+number = float(input('Digite um número: '))
 
-print('A parte inteira de {:.2f} é {}.'.format(n, trunc(n)))
+print('A parte inteira de {:.2f} é {}.'.format(number, trunc(number)))
