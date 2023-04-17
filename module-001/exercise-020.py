@@ -4,13 +4,13 @@ O mesmo professor do desafio 019 quer sortear a ordem de apresentação de traba
 
 from random import shuffle
 
-a1 = input('Digite o nome do primeiro aluno: ')
-a2 = input('Digite o nome do segundo aluno: ')
-a3 = input('Digite o nome do terceiro aluno: ')
-a4 = input('Digite o nome do quarto aluno: ')
+firstStudent = input('Digite o nome do primeiro aluno: ')
+secondStudent = input('Digite o nome do segundo aluno: ')
+thirdStudent = input('Digite o nome do terceiro aluno: ')
+fourthStudent = input('Digite o nome do quarto aluno: ')
 
-l = [a1, a2, a3, a4]
+students = [firstStudent, secondStudent, thirdStudent, fourthStudent]
 
-shuffle(l)
+shuffle(students)
 
-print('A ordem de apresentação dos trabalhos é {}, {}, {} e {}.'.format(l[0], l[1], l[2], l[3]))
+print('A ordem de apresentação dos trabalhos é {}, {}, {} e {}.'.format(students[0], students[1], students[2], students[3]))
