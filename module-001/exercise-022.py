@@ -4,7 +4,9 @@ Crie um programa que leia o nome completo de uma pessoa e mostre: o nome com tod
 
 name = input('Digite um nome completo: ')
 
-firstName = name.split()[0]
+names = name.split()
+
+firstName = names[0]
 
 print('O nome em letras maiúsculas é {}.'.format(name.upper()))
 print('O nome em letras minúsculas é {}.'.format(name.lower()))
