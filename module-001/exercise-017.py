@@ -4,9 +4,9 @@ Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente 
 
 from math import sqrt
 
-aSide = float(input('Digite o valor do cateto oposto: '))
-bSide = float(input('Digite o valor do cateto adjacente: '))
+a = float(input('Digite o valor do cateto oposto: '))
+b = float(input('Digite o valor do cateto adjacente: '))
 
-hypotenuse = sqrt(aSide**2 + bSide**2)
+c = sqrt(a**2 + b**2)
 
-print('O valor da hipotenusa é {:.2f}.'.format(hypotenuse))
+print('O valor da hipotenusa é {:.2f}.'.format(c))
