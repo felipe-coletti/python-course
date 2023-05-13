@@ -4,7 +4,7 @@ Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80 Km/
 
 speed = int(input('Digite a velocidade do veículo em quilometros por hora: '))
 
-if (speed <= 80):
+if speed <= 80:
     print('O veículo está dentro do limite de velocidade.')
 else:
     speedOverLimit = speed - 80
