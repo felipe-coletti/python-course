@@ -8,7 +8,7 @@ typedNumber = int(input('Digite um número inteiro entre 0 e 5: '))
 
 drawnNumber = randint(0, 5)
 
-if (typedNumber == drawnNumber):
+if typedNumber == drawnNumber:
     print('Você acertou, o número sorteado foi {}.'.format(drawnNumber))
 else:
     print('Você errou, o número sorteado foi {}.'.format(drawnNumber))
