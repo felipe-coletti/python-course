@@ -6,14 +6,12 @@ firstNumber = float(input('Digite o primeiro número: '))
 secondNumber = float(input('Digite o segundo número: '))
 thirdNumber = float(input('Digite o terceiro número: '))
 
-smallerNumber = firstNumber
+smallerNumber = higherNumber = firstNumber
 
 if secondNumber < smallerNumber:
     smallerNumber = secondNumber
 if thirdNumber < smallerNumber:
     smallerNumber = thirdNumber
-
-higherNumber = firstNumber
 
 if secondNumber > higherNumber:
     higherNumber = secondNumber
