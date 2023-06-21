@@ -3,15 +3,15 @@ Escreva um programa em Python que leia um número inteiro qualquer e peça para 
 '''
 
 decimalNumber = int(input('Digite um número inteiro: '))
-base = int(input('Digite:\n1 para converter para um número binário;\n2 para converter para um número octal;\n3 para converter para um número hexadecimal.'))
+option = int(input('Digite:\n1 para converter para um número binário;\n2 para converter para um número octal;\n3 para converter para um número hexadecimal.'))
 
-if base == 1:
+if option == 1:
     binaryNumber = bin(decimalNumber)[2:]
     print('O número {} convertido para um número binário é: {}.'.format(decimalNumber, binaryNumber))
-elif base == 2:
+elif option == 2:
     octalNumber = oct(decimalNumber)[2:]
     print('O número {} convertido para um número octal é: {}.'.format(decimalNumber, octalNumber))
-elif base == 3:
+elif option == 3:
     hexadecimalNumber = hex(decimalNumber)[2:]
     print('O número {} convertido para um número hexadecimal é: {}.'.format(decimalNumber, hexadecimalNumber))
 else:
