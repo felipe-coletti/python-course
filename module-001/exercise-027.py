@@ -2,9 +2,9 @@
 Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
 '''
 
-name = input('Digite um nome completo: ')
+fullName = input('Digite um nome completo: ')
 
-names = name.split()
+names = fullName.split()
 
 firstName = names[0]
 lastName = names[len(names) - 1]
