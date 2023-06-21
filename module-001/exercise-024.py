@@ -4,8 +4,8 @@ Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o
 
 name = input('Digite o nome de uma cidade: ')
 
-names = name.split()
+nameParts = name.split()
 
-firstName = names[0]
+firstNamePart = nameParts[0]
 
-print('O nome da cidade começa com Santo? {}'.format(firstName.lower() == 'santo'))
+print('O nome da cidade começa com Santo? {}'.format(firstNamePart.lower() == 'santo'))
