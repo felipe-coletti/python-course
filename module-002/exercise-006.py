@@ -22,6 +22,6 @@ if birthYear <= currentYear:
     else:
         category = 'Mirim'
         
-    print('A categoria é: {}'.format(category))
+    print('A categoria é: {}.'.format(category))
 else:
     print('Ano de nascimento inválido.')
