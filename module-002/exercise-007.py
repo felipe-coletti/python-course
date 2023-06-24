@@ -7,13 +7,11 @@ b = float(input('Digite o valor de b: '))
 c = float(input('Digite o valor de c: '))
 
 if a < b + c and b < a + c and c < a + b:
-    print('Os segmentos de reta a, b e c podem formar um triângulo.')
-    
     if a == b == c:
-        print('O triângulo formado seria um triângulo equilátero.')
+        print('Os segmentos de reta a, b e c podem formar um triângulo equilátero.')
     elif a != b != c:
-        print('O triângulo formado seria um triângulo escaleno.')
+        print('Os segmentos de reta a, b e c podem formar um triângulo escaleno.')
     else:
-        print('O triângulo formado seria um triângulo isósceles.')
+        print('Os segmentos de reta a, b e c podem formar um triângulo isósceles.')
 else:
     print('Os segmentos de reta a, b e c não podem formar um triângulo.')
