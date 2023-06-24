@@ -10,4 +10,4 @@ if firstNumber > secondNumber:
 elif secondNumber > firstNumber:
     print('O segundo número é maior.')
 else:
-    print('Não existe número maior, os dois números são iguais.')
+    print('Os dois números são iguais.')
