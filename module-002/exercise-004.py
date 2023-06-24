@@ -19,12 +19,10 @@ if yearsOld > 18:
         print('O alistamento foi a {} anos.'.format(lagTime))
 elif yearsOld == 18:
     print('O alistamento é esse ano.')
-elif yearsOld < 18 and yearsOld >= 0:
+else:
     timeLeft = 18 - yearsOld
     
     if timeLeft == 1:
         print('Falta {} ano para o alistamento.'.format(timeLeft))
     else:
         print('Faltam {} anos para o alistamento.'.format(timeLeft))
-else:
-    print('Ano de nascimento inválido.')
