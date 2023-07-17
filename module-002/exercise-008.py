@@ -1,5 +1,10 @@
 '''
-Desenvolva uma lógica que leia o peso e a altura de uma pessoa, calcule seu Índice de Massa Corporal (IMC) e mostre seu status: abaixo de 18,5 o status será "Abaixo do peso", de 18,5 a 24,9 o status será "Peso ideal", de 25 a 29,9 o status será "Sobrepeso", de 30 a 39,9 o status será "Obesidade" e a partir de 40 o status será "Obesidade mórbida".
+Desenvolva uma lógica que leia o peso e a altura de uma pessoa, calcule seu Índice de Massa Corporal (IMC) e mostre seu status, de acordo com a tabela abaixo:
+- IMC abaixo de 18,5: abaixo do peso;
+- De 18,5 a 24,9: peso ideal;
+- De 25 a 29,9: sobrepeso;
+- De 30 a 40: obesidade;
+- Acima de 40: obesidade mórbida.
 '''
 
 mass = float(input('Digite o peso: '))
