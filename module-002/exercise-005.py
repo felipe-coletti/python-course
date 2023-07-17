@@ -1,5 +1,8 @@
 '''
-Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com a média atingida: alunos com a média abaixo de 5 são reprovados, alunos com a média entre 5 e 6,9 ficam de recuperação e alunos com a média 7 ou superior são aprovados.
+Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com a média atingida:
+- Média abaixo de 5,0: reprovado;
+- Média entre 5,0 e 6,9: recuperação;
+- Média 7,0 ou superior: aprovado.
 '''
 
 firstGrade = float(input('Digite a primeira nota: '))
