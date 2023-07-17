@@ -1,5 +1,10 @@
 '''
-A Confederação Nacional de Natação precisa de um programa que leia o ano de nascimento de um atleta e mostre sua categoria, de acordo com a idade: quem tiver até 9 anos será mirim, de 10 a 14 anos será infantil, de 15 a 19 anos será júnior, de 20 a 25 anos será sênior e a partir de 25 anos será master.
+A Confederação Nacional de Natação precisa de um programa que leia o ano de nascimento de um atleta e mostre sua categoria, de acordo com a idade:
+- Até 9 anos: mirim;
+- De 10 a 14 anos: infantil;
+- De 15 a 19 anos: júnior;
+- De 20 a 25 anos: sênior;
+- Acima de 25 anos: master.
 '''
 
 from datetime import date
