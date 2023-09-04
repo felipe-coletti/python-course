@@ -4,11 +4,8 @@ Faça um programa que mostre na tela uma contagem regressiva para o estouro de f
 
 from time import sleep
 
-seconds = 10
+startingTime = 10
 
-print(seconds)
-
-while seconds > 0:
+for i in range(startingTime, -1, -1):
+    print(i)
     sleep(1)
-    seconds -= 1
-    print(seconds)
