@@ -11,5 +11,6 @@ print (a)
 
 while a < a1 + r * 9:
     a += r
+    
     print(a)
     
