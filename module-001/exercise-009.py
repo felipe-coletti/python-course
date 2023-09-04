@@ -4,7 +4,6 @@ Faça um programa que leia um número inteiro qualquer e mostre na tela a sua ta
 
 number = int(input('Digite um número inteiro: '))
 
-print('\n{} x 0 = {}'.format(number, number * 0))
 print('{} x 1 = {}'.format(number, number * 1))
 print('{} x 2 = {}'.format(number, number * 2))
 print('{} x 3 = {}'.format(number, number * 3))
